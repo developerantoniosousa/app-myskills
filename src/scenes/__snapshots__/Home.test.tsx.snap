@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> render default <Home /> without performing any action 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#121015",
+      "flex": 1,
+      "paddingHorizontal": 30,
+      "paddingVertical": 70,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": 24,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Welcome, Antonio
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#FFF",
+      }
+    }
+  >
+    Good night
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder="New skill"
+    placeholderTextColor="#555"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "#1F1E25",
+        "borderRadius": 7,
+        "color": "#fff",
+        "fontSize": 18,
+        "marginTop": 30,
+        "padding": 15,
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#A370F7",
+        "borderRadius": 7,
+        "marginTop": 20,
+        "opacity": 1,
+        "padding": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+          "fontSize": 17,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Add
+    </Text>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontSize": 24,
+          "fontWeight": "bold",
+        },
+        Object {
+          "marginVertical": 50,
+        },
+      ]
+    }
+  >
+    My Skills
+  </Text>
+  <RCTScrollView
+    data={Array []}
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;
